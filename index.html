@@ -52,6 +52,16 @@
     p {
       color: #ccc; /* Light text color for section content */
     }
+    .car-images {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .car-images img {
+      width: 200px;
+      height: 140px;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
@@ -76,11 +86,13 @@
     <section id="content">
       <h2>Content</h2>
       <p>This is the content section. It contains information about SPEEDSTER MOTORS and images of some of the available vehicles.</p>
-      <img src="Porsche.jpg" width="400" height="280"/>
-      <img src="BMW.jpg" width="400" height="280"/>
-      <img src="AM.jpg" width="400" height="280"/>
-      <img src="Audi2.jpg" width="400" height="280"/>
-      <img src="Porsche2.jpg" width="400" height="280"/>
+      <div class="car-images">
+        <img src="Porsche.jpg" width="400" height="280"/>
+        <img src="BMW.jpg" width="400" height="280"/>
+        <img src="AM.jpg" width="400" height="280"/>
+        <img src="Audi2.jpg" width="400" height="280"/>
+        <img src="Porsche2.jpg" width="400" height="280"/>
+      </div>
     </section>
     <section id="footer">
       <h2>Footer</h2>
@@ -92,3 +104,4 @@
   </footer>
 </body>
 </html>
+

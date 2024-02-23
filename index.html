@@ -54,13 +54,16 @@
     }
     .car-images {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-wrap: wrap;
     }
     .car-images img {
-      width: 200px;
-      height: 140px;
+      width: calc(20% - 20px);
       margin-bottom: 20px;
+    }
+    .car-info {
+      text-align: center;
+      margin-top: 10px;
     }
   </style>
 </head>
@@ -87,11 +90,36 @@
       <h2>Content</h2>
       <p>This is the content section. It contains information about SPEEDSTER MOTORS and images of some of the available vehicles.</p>
       <div class="car-images">
-        <img src="Porsche.jpg" width="400" height="280"/>
-        <img src="BMW.jpg" width="400" height="280"/>
-        <img src="AM.jpg" width="400" height="280"/>
-        <img src="Audi2.jpg" width="400" height="280"/>
-        <img src="Porsche2.jpg" width="400" height="280"/>
+        <div class="car-info">
+          <img src="Porsche.jpg" width="400" height="280"/>
+          <p>2018 Porsche 911 Carrera 4 GTS Coupe Auto For Sale</p>
+          <p>Price: BWP2.5 million</p>
+          <p>Mileage: 2500km</p>
+        </div>
+        <div class="car-info">
+          <img src="BMW.jpg" width="400" height="280"/>
+          <p>2018 BMW M2 Coupe Auto For Sale</p>
+          <p>Price: BWP750 000</p>
+          <p>Mileage: 50000km</p>
+        </div>
+        <div class="car-info">
+          <img src="AM.jpg" width="400" height="280"/>
+          <p>2024 Aston Martin Vantage V8 Vantage Auto For Sale</p>
+          <p>Price: BWP5.5 million</p>
+          <p>Mileage: 500km</p>
+        </div>
+        <div class="car-info">
+          <img src="Audi2.jpg" width="400" height="280"/>
+          <p>2022 Audi RSQ8 Quattro For Sale</p>
+          <p>Price: BWP2.0 million</p>
+          <p>Mileage: 25000km</p>
+        </div>
+        <div class="car-info">
+          <img src="Porsche2.jpg" width="400" height="280"/>
+          <p>2023 Porsche Cayenne Turbo GT For Sale</p>
+          <p>Price: BWP3.5 million</p>
+          <p>Mileage: 5500km</p>
+        </div>
       </div>
     </section>
     <section id="footer">
@@ -104,4 +132,3 @@
   </footer>
 </body>
 </html>
-
